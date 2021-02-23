@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0C032E25E4C21E0091CFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0C032D25E4C21E0091CFAD /* AppDelegate.swift */; };
+		BE0C033025E4C21E0091CFAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0C032F25E4C21E0091CFAD /* ContentView.swift */; };
+		BE0C033225E4C21E0091CFAD /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BE0C033125E4C21E0091CFAD /* Experience.rcproject */; };
+		BE0C033425E4C2240091CFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0C033325E4C2240091CFAD /* Assets.xcassets */; };
+		BE0C033725E4C2240091CFAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0C033625E4C2240091CFAD /* Preview Assets.xcassets */; };
+		BE0C034225E4C2250091CFAD /* MELARKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0C034125E4C2250091CFAD /* MELARKTests.swift */; };
+		BE0C034D25E4C2250091CFAD /* MELARKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0C034C25E4C2250091CFAD /* MELARKUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0C033E25E4C2250091CFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0C032225E4C21E0091CFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0C032925E4C21E0091CFAD;
+			remoteInfo = MELARK;
+		};
+		BE0C034925E4C2250091CFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0C032225E4C21E0091CFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0C032925E4C21E0091CFAD;
+			remoteInfo = MELARK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0C032A25E4C21E0091CFAD /* MELARK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MELARK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0C032D25E4C21E0091CFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE0C032F25E4C21E0091CFAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE0C033125E4C21E0091CFAD /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		BE0C033325E4C2240091CFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0C033625E4C2240091CFAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE0C033825E4C2240091CFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0C033D25E4C2250091CFAD /* MELARKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MELARKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0C034125E4C2250091CFAD /* MELARKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELARKTests.swift; sourceTree = "<group>"; };
+		BE0C034325E4C2250091CFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0C034825E4C2250091CFAD /* MELARKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MELARKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0C034C25E4C2250091CFAD /* MELARKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MELARKUITests.swift; sourceTree = "<group>"; };
+		BE0C034E25E4C2250091CFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0C032725E4C21E0091CFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C033A25E4C2250091CFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C034525E4C2250091CFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0C032125E4C21E0091CFAD = {
+			isa = PBXGroup;
+			children = (
+				BE0C032C25E4C21E0091CFAD /* MELARK */,
+				BE0C034025E4C2250091CFAD /* MELARKTests */,
+				BE0C034B25E4C2250091CFAD /* MELARKUITests */,
+				BE0C032B25E4C21E0091CFAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0C032B25E4C21E0091CFAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C032A25E4C21E0091CFAD /* MELARK.app */,
+				BE0C033D25E4C2250091CFAD /* MELARKTests.xctest */,
+				BE0C034825E4C2250091CFAD /* MELARKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0C032C25E4C21E0091CFAD /* MELARK */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C032D25E4C21E0091CFAD /* AppDelegate.swift */,
+				BE0C032F25E4C21E0091CFAD /* ContentView.swift */,
+				BE0C033125E4C21E0091CFAD /* Experience.rcproject */,
+				BE0C033325E4C2240091CFAD /* Assets.xcassets */,
+				BE0C033825E4C2240091CFAD /* Info.plist */,
+				BE0C033525E4C2240091CFAD /* Preview Content */,
+			);
+			path = MELARK;
+			sourceTree = "<group>";
+		};
+		BE0C033525E4C2240091CFAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C033625E4C2240091CFAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE0C034025E4C2250091CFAD /* MELARKTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C034125E4C2250091CFAD /* MELARKTests.swift */,
+				BE0C034325E4C2250091CFAD /* Info.plist */,
+			);
+			path = MELARKTests;
+			sourceTree = "<group>";
+		};
+		BE0C034B25E4C2250091CFAD /* MELARKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C034C25E4C2250091CFAD /* MELARKUITests.swift */,
+				BE0C034E25E4C2250091CFAD /* Info.plist */,
+			);
+			path = MELARKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0C032925E4C21E0091CFAD /* MELARK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0C035125E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARK" */;
+			buildPhases = (
+				BE0C032625E4C21E0091CFAD /* Sources */,
+				BE0C032725E4C21E0091CFAD /* Frameworks */,
+				BE0C032825E4C21E0091CFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MELARK;
+			productName = MELARK;
+			productReference = BE0C032A25E4C21E0091CFAD /* MELARK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0C033C25E4C2250091CFAD /* MELARKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0C035425E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARKTests" */;
+			buildPhases = (
+				BE0C033925E4C2250091CFAD /* Sources */,
+				BE0C033A25E4C2250091CFAD /* Frameworks */,
+				BE0C033B25E4C2250091CFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0C033F25E4C2250091CFAD /* PBXTargetDependency */,
+			);
+			name = MELARKTests;
+			productName = MELARKTests;
+			productReference = BE0C033D25E4C2250091CFAD /* MELARKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0C034725E4C2250091CFAD /* MELARKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0C035725E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARKUITests" */;
+			buildPhases = (
+				BE0C034425E4C2250091CFAD /* Sources */,
+				BE0C034525E4C2250091CFAD /* Frameworks */,
+				BE0C034625E4C2250091CFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0C034A25E4C2250091CFAD /* PBXTargetDependency */,
+			);
+			name = MELARKUITests;
+			productName = MELARKUITests;
+			productReference = BE0C034825E4C2250091CFAD /* MELARKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0C032225E4C21E0091CFAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BE0C032925E4C21E0091CFAD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BE0C033C25E4C2250091CFAD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BE0C032925E4C21E0091CFAD;
+					};
+					BE0C034725E4C2250091CFAD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BE0C032925E4C21E0091CFAD;
+					};
+				};
+			};
+			buildConfigurationList = BE0C032525E4C21E0091CFAD /* Build configuration list for PBXProject "MELARK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0C032125E4C21E0091CFAD;
+			productRefGroup = BE0C032B25E4C21E0091CFAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0C032925E4C21E0091CFAD /* MELARK */,
+				BE0C033C25E4C2250091CFAD /* MELARKTests */,
+				BE0C034725E4C2250091CFAD /* MELARKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0C032825E4C21E0091CFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C033725E4C2240091CFAD /* Preview Assets.xcassets in Resources */,
+				BE0C033425E4C2240091CFAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C033B25E4C2250091CFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C034625E4C2250091CFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0C032625E4C21E0091CFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C033025E4C21E0091CFAD /* ContentView.swift in Sources */,
+				BE0C032E25E4C21E0091CFAD /* AppDelegate.swift in Sources */,
+				BE0C033225E4C21E0091CFAD /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C033925E4C2250091CFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C034225E4C2250091CFAD /* MELARKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0C034425E4C2250091CFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C034D25E4C2250091CFAD /* MELARKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0C033F25E4C2250091CFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0C032925E4C21E0091CFAD /* MELARK */;
+			targetProxy = BE0C033E25E4C2250091CFAD /* PBXContainerItemProxy */;
+		};
+		BE0C034A25E4C2250091CFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0C032925E4C21E0091CFAD /* MELARK */;
+			targetProxy = BE0C034925E4C2250091CFAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE0C034F25E4C2250091CFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0C035025E4C2250091CFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0C035225E4C2250091CFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MELARK/Preview Content\"";
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MELARK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0C035325E4C2250091CFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MELARK/Preview Content\"";
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MELARK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE0C035525E4C2250091CFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				INFOPLIST_FILE = MELARKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MELARK.app/MELARK";
+			};
+			name = Debug;
+		};
+		BE0C035625E4C2250091CFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				INFOPLIST_FILE = MELARKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MELARK.app/MELARK";
+			};
+			name = Release;
+		};
+		BE0C035825E4C2250091CFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				INFOPLIST_FILE = MELARKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MELARK;
+			};
+			name = Debug;
+		};
+		BE0C035925E4C2250091CFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3622LX3TA;
+				INFOPLIST_FILE = MELARKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeendsleap.MELARKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MELARK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0C032525E4C21E0091CFAD /* Build configuration list for PBXProject "MELARK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0C034F25E4C2250091CFAD /* Debug */,
+				BE0C035025E4C2250091CFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0C035125E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0C035225E4C2250091CFAD /* Debug */,
+				BE0C035325E4C2250091CFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0C035425E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0C035525E4C2250091CFAD /* Debug */,
+				BE0C035625E4C2250091CFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0C035725E4C2250091CFAD /* Build configuration list for PBXNativeTarget "MELARKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0C035825E4C2250091CFAD /* Debug */,
+				BE0C035925E4C2250091CFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0C032225E4C21E0091CFAD /* Project object */;
+}

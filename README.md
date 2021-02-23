@@ -1,3 +1,3 @@
 # iOS-ARKit
 
-iOS app using Apple's ARKit (Augmented Reality)
+iOS app using Apple's ARKit (Augmented Reality) Along with RealityKit
